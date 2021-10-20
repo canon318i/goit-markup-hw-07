@@ -14,7 +14,7 @@
   --card-border: #eeeeee;
   --svg-color: #afb1b8;
   --flex-margin: 30px;
-  --page-width:1200px;
+  --page-width: 1200px;
 }
 
 body {
@@ -240,8 +240,6 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: ;
-
 }
 
 .hero-hdr {
@@ -380,7 +378,7 @@ ul {
 
 .team-section {
   background-color: var(--alt-bkg-color);
-    min-width: var(--page-width);
+  min-width: var(--page-width);
 }
 
 .team-list {
@@ -786,8 +784,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  cursor:pointer;
+
+  cursor: pointer;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -811,7 +809,7 @@ ul {
   color: var(--primary-header-color);
 }
 
-.modal-input-list{
+.modal-input-list {
   margin-bottom: 20px;
 }
 
@@ -895,22 +893,20 @@ ul {
 }
 
 .modal-checkbox-group {
-  margin 0 auto;
-  
-
+  margin: 0 auto;
 }
+
 .modal-checkbox-label {
   display: flex;
   margin-bottom: 30px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  
+
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--primary-text-color);
-  
- }
+}
 
 .modal-policy-link {
   color: var(--accent-color);
@@ -920,7 +916,7 @@ ul {
 .modal-checkbox-icon {
   display: block;
   margin-right: 9px;
-  
+
   border: 2px solid var(--primary-header-color);
   border-radius: 2px;
   fill: var(--main-bkg-color);
@@ -930,7 +926,6 @@ ul {
 }
 
 .modal-checkbox:checked + .modal-checkbox-icon {
-    border: 0px solid var(--accent-color);
-    background-color: var(--accent-color);
+  border: 0px solid var(--accent-color);
+  background-color: var(--accent-color);
 }
-
